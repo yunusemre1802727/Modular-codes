@@ -35,3 +35,54 @@ plt.savefig(f"{output_figure_name}", dpi=300)
 
 # Close the figure
 plt.show()
+
+# Before latex expressions use r
+# For example: r'$\alpha$ [$a_{ij}$]'
+
+# Enclosing in Dollar Signs ($): Most LaTeX expressions are enclosed in dollar signs.
+# For example, to write a Greek letter, you can use "$\alpha$", where \alpha is the LaTeX command for the Greek letter alpha.
+# ----------------------------------------------------------------------
+
+# Mathematical Symbols: Many mathematical symbols have LaTeX equivalents.
+# For instance, ^ denotes exponentiation, so "$x^2$" would render as x².
+# ----------------------------------------------------------------------
+
+# Subscripts and Superscripts: You can use _ for subscripts and ^ for superscripts. 
+# For example, "$a_{ij}$" for a subscript and "$b^2$" for a superscript.
+# ----------------------------------------------------------------------
+
+# Fractions: You can create fractions using \frac{numerator}{denominator}. 
+# For instance, "$\frac{1}{2}$" would render as ½.
+# ----------------------------------------------------------------------
+
+# Roots: Use \sqrt for square roots.
+# For example, "$\sqrt{2}$" would render as √2.
+# ----------------------------------------------------------------------
+
+# Special Characters: Some characters have special LaTeX commands.
+# For example, "$\approx$" for the approximate symbol (≈).
+
+# Alpha: $\alpha$
+# Beta: $\beta$
+# Gamma: $\gamma$
+# Delta: $\delta$
+# Epsilon: $\epsilon$
+# Zeta: $\zeta$
+# Eta: $\eta$
+# Theta: $\theta$
+# Iota: $\iota$
+# Kappa: $\kappa$
+# Lambda: $\lambda$
+# Mu: $\mu$
+# Nu: $\nu$
+# Xi: $\xi$
+# Omicron: $o$ (Note: Omicron is commonly represented by the letter 'o' without a backslash)
+# Pi: $\pi$
+# Rho: $\rho$
+# Sigma: $\sigma$
+# Tau: $\tau$
+# Upsilon: $\upsilon$
+# Phi: $\phi$
+# Chi: $\chi$
+# Psi: $\psi$
+# Omega: $\omega$
